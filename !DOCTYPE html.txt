@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="web6.css">
+
+</head>
+<body>
+    <div class="main width-full  font-['Gilroy']">
+        <div class="nav flex relative items-center justify-between py-5 px-20 bg-white">
+            <h3 class="font-extrabold text-xl">PUREM<br>ODA</h3>
+            <div class="links flex gap-6">
+                <a href="#">WOMENSWEAR</a>
+                <a href="#">MENSWEAR</a>
+                <a href="#">KIDS</a>
+                <a href="#">SALE</a>
+                <a href="#">DISCOVER</a>
+            </div>
+            <div class="icons flex gap-6 text-xl ">
+                <button class="border-2 rounded-full px-10 ml-1"><i class="ri-search-line"></i>search</button>
+                <i class="ri-heart-line"></i>
+                <i class="ri-shopping-bag-line"></i>
+            </div>
+        </div>     
+
+    </div>
+        <div class="boxes flex py-5 px-20  justify-between  ">
+            <div class="box-contaner w-[49%] h-[650px]  rounded-3 rounded-lg flex flex-col ">
+                <div class="box1 w-full h-[600px] bg-zinc-300 rounded-lg justify-center items-center overflow-hidden">
+                    <h1 class="font-bold py-5 px-10 text-6xl ">FOR <i class="ri-arrow-right-line"></i><br> EVERYONE BUT<br>NOTANYONE</h1>
+                    <p class="font-medium py-5 px-10 text-l mt-20">We establish personal relationship with our boutiques, to make<br>sure each is vetted for a stress-free shopping experiences.</p>
+                    
+                </div>
+                <div class="box1 w-full h-[250px] gap-2 mt-5  rounded-lg  flex justify-center gap-2 relative">
+                    <div class="box2 w-80 h-full  rounded-lg items-center justify-center relative ">
+                        <img class="w-full h-full rounded-lg" src="https://images.pexels.com/photos/2113709/pexels-photo-2113709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <div class="absolute top-0 left-0  text-white px-8 opacity-95 mt-44 text-xl font-bold">#RIPSTOP</div>
+                        
+                        
+                     </div>
+                    <div class="box3 w-80 h-full rounded-lg justify-center items-center overflow-hidden relative">
+                        <img class="w-full h-full rounded-lg" src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="absolute top-0 left-0 text-white px-8 opacity-95 mt-44 text-xl font-bold">#INSULATED</div>
+                    </div> 
+                </div>
+            </div>
+            <div class=" items-center w-[49%] h-[650px] rounded-lg justify-center relative ">
+                <img class=" w-[100%] h-[100%] rounded-lg object-cover " src="https://images.garmentory.com/images/4870234/xxl/Bucket-Hat-Olive-20210327024823.jpg?1616813305" alt="">
+                <div class="absolute top-0 left-0  mt-80 ml-[360px] text-white p-2 opacity-95"><button class="rounded-full border-2 p-4  ">SHOP<br>NOW</button></div>
+                <div class="absolute top-0 left-0  text-white px-40 opacity-95 mt-[580px] font-medium text-sm "><button class="rounded-full border-none bg-white text-black px-6 py-2 font-medium ">LEARN MORE <span class="ml-8 text-xl "><i class="ri-arrow-down-circle-fill"></i></span></button></div>
+                <div class="absolute top-0 left-0  text-white ml-[370px]  opacity-95 mt-[580px] font-medium text-sm "><button class="rounded-full border-2 border-white bg-transparent text-white px-6  py-2 font-medium ">CONTACT US <span class="ml-8 text-xl"><i class="ri-chat-check-fill"></i> </span></button></div>
+                
+            </div>
+             
+            
+        </div>
+        
+    </div>
+    
+</body>
+</html>
